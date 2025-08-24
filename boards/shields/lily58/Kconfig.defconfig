@@ -1,7 +1,7 @@
 if SHIELD_LILY58_CENTRAL_DONGLE
 
 config ZMK_KEYBOARD_NAME
-    default "Lily58-Dongle"
+    default "Lily58"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
@@ -56,3 +56,4 @@ config LED_PWM
 endif # ZMK_BACKLIGHT
 
 endif
+
