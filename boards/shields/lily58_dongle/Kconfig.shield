@@ -1,2 +1,2 @@
-config SHIELD_CORNE_DONGLE
+config SHIELD_LILY58_DONGLE
     def_bool $(shields_list_contains,lily58_dongle)
