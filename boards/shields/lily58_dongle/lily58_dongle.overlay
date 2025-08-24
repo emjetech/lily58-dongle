@@ -4,9 +4,9 @@
 
 / {
     chosen {
-         zephyr,display = &oled;
-        zmk,kscan = &kscan0;
+        zmk,kscan = &mock_kscan;
         zmk,physical-layout = &kata0510_lily58_layout;
+        zephyr,display = &oled;
     };
 
     mock_kscan: mock_kscan_0 {
