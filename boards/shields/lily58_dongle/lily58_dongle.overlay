@@ -1,18 +1,12 @@
-/*
- * Copyright (c) 2020 Pete Johanson
- *
- * SPDX-License-Identifier: MIT
- */
-
 #include <dt-bindings/zmk/matrix_transform.h>
 
 #include <layouts/kata0510/lily58.dtsi>
 
-#include <dt-bindings/zmk/matrix_transform.h>
-
 / {
     chosen {
-        zmk,kscan = &mock_kscan;
+         zephyr,display = &oled;
+        zmk,kscan = &kscan0;
+        zmk,physical-layout = &kata0510_lily58_layout;
     };
 
     mock_kscan: mock_kscan_0 {
