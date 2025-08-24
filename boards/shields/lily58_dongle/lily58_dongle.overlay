@@ -8,11 +8,18 @@
 
 #include <layouts/kata0510/lily58.dtsi>
 
+#include <dt-bindings/zmk/matrix_transform.h>
+
 / {
     chosen {
-        zephyr,display = &oled;
-        zmk,kscan = &kscan0;
-        zmk,physical-layout = &kata0510_lily58_layout;
+        zmk,kscan = &mock_kscan;
+    };
+
+    mock_kscan: mock_kscan_0 {
+        compatible = "zmk,kscan-mock";
+        columns = <0>;
+        rows = <0>;
+        events = <0>;
     };
 
     default_transform: keymap_transform_0 {
