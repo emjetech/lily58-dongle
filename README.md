@@ -1,4 +1,8 @@
-ZMK Lily58 untuk Super Mini / Promicro Wireless NRF52840.
+ZMK Lily58 untuk Super Mini / Promicro Wireless NRF52840 with dongle.
+
+
+Plug & Play cukup plug dongle di USB C!
+
 
 [ZMK STUDIO](https://zmk.studio/)
 Ada update baru ZMK Studio remapping tanpa perlu di flash 
@@ -12,10 +16,6 @@ Video fork repository :
 [Tutorial Mapping ZMK](https://youtu.be/cAi5pnkz48M)
 
 <img width="3827" height="2705" alt="Image" src="https://github.com/user-attachments/assets/fa0b5a4a-d71e-4bee-a56c-bf8bce3d2299" />
-
-
-Untuk Variant ini cukup plug Dongle ke USB Port di device anda.
-
 
 Prosedur Reset Keyboard Split
 Lakukan langkah-langkah berikut untuk mereset semua bagian keyboard split Anda:
